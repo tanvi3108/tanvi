@@ -8,5 +8,9 @@ public class Helloworld{
 //system.in -is used for input
 //system.out -is used for output
 
+for(int i=0; i<=10; i++){
+    System.out.println(i);
+}
+
     }
 }
