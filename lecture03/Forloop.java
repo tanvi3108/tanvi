@@ -47,6 +47,13 @@ public class Forloop {
         // for(int i=0, j=1; i<j&&j<n; i++,j++) {
         //     System.out.println(i+" "+j);
         // }
+
+        //WAP to print the table of a number n
+        //  System.out.println("Enter number: ");
+        //  int n= sc.nextInt();
+        //  for(int i=1; i<=10; i++){
+        //      System.out.println(n*i);
+        //  }
         
         //WAP to know if a number is prime or not 
         int n=sc.nextInt();
