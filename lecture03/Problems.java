@@ -19,6 +19,7 @@ public class Problems {
                 
         }
         if(b==true){
+     Scanner sc= new Scanner(System.in);
             System.out.println("prime");
         }else{
             System.out.println("Not Prime");
