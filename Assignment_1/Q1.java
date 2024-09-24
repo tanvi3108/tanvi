@@ -16,7 +16,6 @@ public class Q1{
             public static void main(String[] args) {
                         //taking input
                         Scanner sc = new Scanner(System.in);
-                        System.out.print("enter the number: ");
                         int n=sc.nextInt();
         
                         System.out.println(reverse(n));

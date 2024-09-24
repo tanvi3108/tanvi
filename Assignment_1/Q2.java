@@ -2,18 +2,9 @@
 package Assignment_1;
 import java.util.Scanner;
 public class Q2 {
-    static int reverse(int n){
-        //reversing the number
-        int r = 0; 
-            while (n != 0) { 
-                r = (r * 10) + (n % 10); 
-                n /= 10; 
-            } 
-            return r; 
     
-        }
         static void getSum(int n){
-            n=reverse(n);
+        
             int sumOdd=0, sumEven=0, c=1;
             while(n!=0){
                 if(c%2==0){
