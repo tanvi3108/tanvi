@@ -86,6 +86,68 @@ public class Patternprinting {
                     }
                     System.out.println();
                 }
+
+
+                System.out.println("TRIANGLE\n");
+                for(int i=1;i<=n;i++){
+                    //for printing spaces
+                    for(int k=1; k<=(n-i);k++)
+                        System.out.print("  ");
+                    //For printing stars
+                    for(int j=1;j<=i;j++)
+                        System.out.print("* ");
+        
+                    // For RFT
+                    for(int j=2;j<=i;j++)
+                        System.out.print("* ");
+                    System.out.println();
+                }
+
+
+                System.out.println("INVERTED TRIANGLE\n");
+                for(int i=n;i>=1;i--){
+                    //for printing spaces
+                    for(int k=1; k<=(n-i);k++)
+                        System.out.print("  ");
+                    //For printing stars
+                    for(int j=1;j<=i;j++)
+                        System.out.print("* ");
+        
+                    // For RFT
+                    for(int j=2;j<=i;j++)
+                        System.out.print("* ");
+                    System.out.println();
+                }
+
+                System.out.println("Q18");
+                for(int i=1;i<=n;i++){
+                    //for printing spaces
+                    for(int k=1; k<=(n-i);k++)
+                        System.out.print("  ");
+                    //For printing stars
+                    for(int j=1;j<=i;j++)
+                        System.out.print("* ");
+        
+                    // For RFT
+                    for(int j=2;j<=i;j++)
+                        System.out.print("* ");
+                    System.out.println();
+                }
+                for(int i=(n-1);i>=1;i--){
+                    //for printing spaces
+                    for(int k=1; k<=(n-i);k++)
+                        System.out.print("  ");
+                    //For printing stars
+                    for(int j=1;j<=i;j++)
+                        System.out.print("* ");
+        
+                    // For RFT
+                    for(int j=2;j<=i;j++)
+                        System.out.print("* ");
+                    System.out.println();
+                }
+
+                
     }
     
 }
