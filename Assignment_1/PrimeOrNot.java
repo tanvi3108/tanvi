@@ -1,14 +1,11 @@
-package lecture03;
+package Assignment_1;
 import java.util.Scanner;
-public class Problems {
+public class PrimeOrNot {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter number to check prime: ");
         int n= sc.nextInt();
-        // for(int i=1;i<=n;i++)
-        //     System.out.println();
-        //Find if N is prime or not
-
+        
         boolean b=true; //Number is prime or not
 
         for(int i=2; i<n;i++){
@@ -25,4 +22,3 @@ public class Problems {
         }
     }
 }
-

@@ -2,7 +2,7 @@
 
 package Assignment_1;
 import java.util.Scanner;
-public class Q1{
+public class Reverse{
         static int reverse(int n){
             //reversing the number
             int r = 0; 

@@ -9,7 +9,7 @@
 
 package Assignment_1;
 import java.util.Scanner;
-public class Q3 {
+public class Armstrong {
     static boolean armStrong(int n){
         
         int len=0;
@@ -26,7 +26,7 @@ public class Q3 {
             temp/=10;
         }
         return(sum==n);
-
+        
     }
 
     public static void main(String[] args) {
