@@ -7,10 +7,9 @@ public class Try {
       int temp=0;
    
       while(n%10==0){
-         temp=n%10;
-         temp=5;
-
-         temp=n/10;
+         temp=n;
+         n=5;
+         
       }
       System.out.println(n);
 
