@@ -18,11 +18,10 @@ public class DigitCount {
         System.out.println(count); 
     }
     public static void main(String[] args) {
-    Scanner number = new Scanner(System.in);
-    int n=number.nextInt();
-    Scanner digit = new Scanner(System.in);
-    int d=digit.nextInt();
     
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int d = sc.nextInt();
     digCount(n,d); 
 }
 }
