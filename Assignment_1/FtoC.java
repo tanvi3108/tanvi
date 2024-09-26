@@ -10,8 +10,7 @@ public class FtoC {
         int step = sc.nextInt();
      
         for(int i=minF;i<=maxF;i+=step){
-            int C= ((5/9)*(i-32));
-     
+            int C= ((i-32)*5/9);
            System.out.println(i+" "+C);
         }
      

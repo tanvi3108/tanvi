@@ -16,7 +16,7 @@ public class PrimeOrNot {
                 
         }
         if(b==true){
-            System.out.println("prime");
+            System.out.println("Prime");
         }else{
             System.out.println("Not Prime");
         }

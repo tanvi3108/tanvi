@@ -2,17 +2,17 @@ package Assignment_1;
 import java.util.Scanner;
 public class Try {
    public static void main(String[] args) {
-      
-   Scanner sc= new Scanner(System.in);
-   int minF = sc.nextInt();
-   int maxF = sc.nextInt();
-   int step = sc.nextInt();
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      int temp=0;
+   
+      while(n%10==0){
+         temp=n%10;
+         temp=5;
 
-   for(int i=minF;i<=maxF;i+=step){
-       int C= ((5/9)*(i-32));
+         temp=n/10;
+      }
+      System.out.println(n);
 
-      System.out.println(i+" "+C);
    }
-
-}
 }
