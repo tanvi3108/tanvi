@@ -5,6 +5,8 @@ public class Patternprinting {
       
         int n=5;
         System.out.println("SQUARE\n");
+        //i:1->n
+        //j:1->n
             for(int i=1;i<=n;i++){
             for(int j=1; j<=n;j++)
             System.out.print("* ");
@@ -14,13 +16,16 @@ public class Patternprinting {
     
 
         System.out.println("RIGHT FACING TRIANGLE\n");
+        //i:1->n
+        //j:1->i
             for(int i=1;i<=n;i++){
-            for(int j=1; j<=i;j++)
-            System.out.print("* ");
+            for(int j=1; j<=i;j++)                    
+            System.out.print("* ");                 
             System.out.println();
         }
       
         System.out.println("LEFT FACING TRIANGLE\n");
+
 
             for(int i=1;i<=n;i++){
 
@@ -64,14 +69,14 @@ public class Patternprinting {
 
         System.out.println("HOLLOW SQUARE\n");
             for(int i=1;i<=n;i++){
-                    for(int j=1;j<=n;j++){
-                        if(i==n||i==1||j==1||j==n){
-                        System.out.print("* ");        
-                        }else{
-                            System.out.print("  ");
-                        }
+                for(int j=1;j<=n;j++){
+                    if(i==n||i==1||j==1||j==n){
+                System.out.print("* ");        
+                    }else{
+                    System.out.print("  ");
                     }
-                    System.out.println();
+                    }
+                System.out.println();
                 }
      
 
