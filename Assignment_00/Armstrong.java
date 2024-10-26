@@ -7,7 +7,7 @@
 //1634 is an Armstrong number as 1634 = 1^4 + 6^4 + 3^4 + 4^4
 //371 is an Armstrong number as 371 = 3^3 + 7^3 + 1^3
 
-package Assignment_1;
+package Assignment_00;
 import java.util.Scanner;
 public class Armstrong {
     static boolean armStrong(int n){

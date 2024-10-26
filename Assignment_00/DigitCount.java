@@ -3,7 +3,7 @@
 // A digit
 // Write a function that returns the number of times digit is found in the number. Print the value returned.
 
-package Assignment_1;
+package Assignment_00;
 import java.util.Scanner;
 public class DigitCount {
     static void digCount( int n, int d){

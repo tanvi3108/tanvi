@@ -1,6 +1,6 @@
 //Take N (number in binary format). Write a function that converts it to decimal format and Print the value returned.
 
-package Assignment_1;
+package Assignment_00;
 import java.util.Scanner;
 
 public class BinaryToDecimal {

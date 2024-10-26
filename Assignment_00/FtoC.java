@@ -1,4 +1,4 @@
-package Assignment_1;
+package Assignment_00;
 import java.util.Scanner;
 
 public class FtoC {

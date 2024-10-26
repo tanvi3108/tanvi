@@ -3,7 +3,7 @@
 //A number (N2)
 //Write a function which prints first N1 terms of the series 3n + 2 which are not multiples of N2.
 
-package Assignment_1;
+package Assignment_00;
 import java.util.Scanner;
 public class PrintSeries {
     public static void main(String[] args) {

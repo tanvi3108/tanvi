@@ -1,6 +1,6 @@
 //Take n as input, Calculate it's reverse also Print the reverse.
 
-package Assignment_1;
+package Assignment_00;
 import java.util.Scanner;
 public class Reverse{
         static int reverse(int n){

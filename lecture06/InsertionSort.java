@@ -1,7 +1,5 @@
 package lecture06;
 
-import lecture05.Arrays;
-
 public class InsertionSort {
      static void display(int[] arr){
         for(int i:arr)
@@ -9,13 +7,11 @@ public class InsertionSort {
     }
     //insertion sort
     static void insertionSort(int arr[]){
-        // int n= arr.length;
-        //
         for(int i=1;i<arr.length;i++){
             int key= arr[i];
             int j= i-1;
             while(j>=0 && arr[j]>key){
-                arr[j+1]= arr[j];
+                arr[j+1]= arr[j];//shifting
                 --j;
             }
             arr[j+1]= key;
@@ -24,9 +20,8 @@ public class InsertionSort {
     
     public static void main(String[] args) {
         int[] arr= {1,6,9,8,7,2,3,5,4};
-        // insertionSort(arr);
-        Arrays.sort(arr);
-        System.out.println(Arrays.binarySearch(arr, 10));
+        insertionSort(arr);
         display(arr);
+
     }
 }
