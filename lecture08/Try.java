@@ -1,22 +1,24 @@
 package lecture08;
 import java.util.Scanner;
 public class Try {
-    
-    public static void primeOrNot(int n){
-        //WAP to know if a number is prime or not 
-        boolean b=true; //Number is prime or not
-
-        for(int i=2; i<n;i++){
-            if(n%i==0){
-                b=false;
-                break;
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=0;i<n;i++){
+            //spaces
+            for(int j=0;j<i;j++){
+            System.out.print("  ");
             }
-                
+            //stars
+            for(int j=0;j<2*n-(2*i+1);j++){
+            System.out.print("* ");
+            }
+            //spaces
+            for(int j=0;j<i;j++){
+            System.out.print("  ");
+            }
+         System.out.println();
         }
-        if(b==true){
-            System.out.println("prime");
-        }else{
-            System.out.println("Not Prime");
-        }
-   }
+
+    }
 }
+
