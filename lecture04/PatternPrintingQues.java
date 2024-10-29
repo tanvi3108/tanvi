@@ -172,9 +172,107 @@ public class PatternPrintingQues{
         // }
      }
 
-     static void printQ11(int n){
-        System.out.println("pdf ques-11");
+     static void printQ16(int n){
+        System.out.println("pdf ques-16");
+        for(int i=n;i>=1;i--){
+            for(int k=1;k<=i-1;k++)
+            System.out.print("  ");
+            for(int j=1;j<=i;j++)
+            System.out.print(" * ");
+            System.out.println("");
+        }
+        for(int i=2;i<=n;i++){
+            for(int k=1;k<=i-1;k++)
+            System.out.print("  ");
+            for(int j=1;j<=i;j++)
+            System.out.print(" * ");
+            System.out.println("");
+        }
+     }
 
+     static void printQ19(int n){
+        System.out.println("pdf ques-19");
+
+        for (int i = n/2+1; i >=1; i--) {
+            for (int j = 1; j <=i && j<=n/2; j++) {
+                System.out.print("* ");
+            }
+            for (int k = 2; k <=n/2+1-i && k<=n/2; k++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <=n/2+1-i; k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <=i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for (int i = 2; i <=n/2+1; i++) {
+            for (int j = 1; j <=i && j<=n/2; j++) {
+                System.out.print("* ");
+            }
+            for (int k = 2; k <=n/2+1-i && k<=n/2; k++) {
+                System.out.print("  ");
+            }
+            for (int k = 1; k <=n/2+1-i; k++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <=i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+     }
+
+     static void printQ20(int n){
+        System.out.println("pdf ques-20");
+
+        int a = (n+1)/2;
+      
+        // for upper half
+      for(int i = a; i>= 1; i--){
+          for(int j = 1; j<= i;  j++){
+              if(j==i){
+                 System.out.print("* ");
+              }
+             else {
+                      System.out.print("  ");
+              }
+          }
+          for(int j = 1; j<= a-i; j++){
+                      System.out.print("  ");
+          }
+          for(int j =2; j<= a-i; j++){
+                      System.out.print("  ");
+          }
+          for(int j =1; j<= a-i && j<= 1 ; j++){
+              System.out.print("* ");
+          }
+                  System.out.println();
+      }
+
+      // for lower half 
+      for(int i = 2; i<= a; i++){     // i will start with 2 && it is the inverse of upper half
+          for(int j = 1; j<= i;  j++){
+              if(j==i){
+                 System.out.print("* ");
+              }
+              else {
+                      System.out.print("  ");
+              }
+          }
+          for(int j = 1; j<= a-i; j++){
+              System.out.print("  ");
+          }
+          for(int j =2; j<= a-i; j++){
+              System.out.print("  ");
+          }
+          for(int j =1; j<= a-i && j<= 1 ; j++){
+              System.out.print("* ");
+          }
+          System.out.println();
+      }
      }
     public static void main(String[] args) {
         int n=5;
@@ -189,6 +287,9 @@ public class PatternPrintingQues{
         printQ8(n);
         printQ9(n);
         printQ10(n);
+        printQ16(n);
+        printQ19(n);
+        printQ20(n);
 
     }
 }
