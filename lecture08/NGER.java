@@ -11,7 +11,7 @@ public class NGER {
         return nger;
     }
     public static void main(String[] args) {
-        int[] arr= {7,1,5,3,6,4};
+        int[] arr= {7,8,5,6,3,4,1,2};
         int[] num= NGER(arr);
         for(int i:num){
             System.out.print(i+" ");

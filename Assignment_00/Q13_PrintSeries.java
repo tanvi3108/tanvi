@@ -5,7 +5,7 @@
 
 package Assignment_00;
 import java.util.Scanner;
-public class PrintSeries {
+public class Q13_PrintSeries {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
         int N1=sc.nextInt();

@@ -14,7 +14,7 @@ public class NSER {
         return NSER;
     }
     public static void main(String[] args) {
-        int[] arr={9,6,4,1,7,3,5,2,8};
+        int[] arr={7,8,5,6,3,4,1,2};
         int[] NSER= nser(arr);
         for(int i:NSER)
             System.out.print(i+" ");

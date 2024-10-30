@@ -14,7 +14,7 @@ public class NSEL {
         return NSEL;
     }
     public static void main(String[] args) {
-        int[] arr={9,6,4,1,7,3,5,2,8};
+        int[] arr={7,8,5,6,3,4,1,2};
         int[] NSEL= nsel(arr);
         for(int i:NSEL)
             System.out.print(i+" ");

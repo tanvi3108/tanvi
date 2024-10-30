@@ -1,7 +1,7 @@
 package Assignment_00;
 import java.util.Scanner;
 
-public class FtoC {
+public class Q7_ConversionFtoC {
     public static void main(String[] args) {
       
         Scanner sc= new Scanner(System.in);

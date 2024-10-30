@@ -9,7 +9,7 @@
 
 package Assignment_00;
 import java.util.Scanner;
-public class Armstrong {
+public class Q20_IsArmstrong {
     static boolean armStrong(int n){
         
         int len=0;

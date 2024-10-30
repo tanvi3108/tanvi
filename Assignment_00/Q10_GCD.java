@@ -2,7 +2,7 @@ package Assignment_00;
 
 import java.util.Scanner;
 
-public class GCD {
+public class Q10_GCD {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
     int n1 = sc.nextInt();
@@ -15,5 +15,18 @@ public class GCD {
         gcd = i;
     }
    System.out.println(gcd);
+   
 }
 }
+/* 
+public static int gcd(int dividend, int divisor){
+
+  while(dividend % divisor != 0){
+      int rem = dividend % divisor;
+      dividend = divisor;
+      divisor = rem;
+  }
+
+  return divisor;
+  }
+*/

@@ -1,7 +1,7 @@
 //Take N as input. Print the sum of its odd placed digits and sum of its even placed digits.
 package Assignment_00;
 import java.util.Scanner;
-public class EvenOddSum {
+public class Q1_EvenOddSum {
     
         static void getSum(int n){
         
@@ -24,7 +24,6 @@ public class EvenOddSum {
                     Scanner sc = new Scanner(System.in);
                     int n=sc.nextInt();
     
-                    //System.out.println(reverse(n));
                     getSum(n);
             
     

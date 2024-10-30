@@ -3,15 +3,15 @@ package lecture08;
 public class NGEL {
     static int[] NGEL(int[] arr){
         int maxElement= 0;
-        int[] nger= new int[arr.length];
+        int[] ngel= new int[arr.length];
         for(int i=0;i<arr.length;i++){
-            nger[i]= maxElement;
+            ngel[i]= maxElement;
             maxElement= Math.max(arr[i], maxElement);
         }
-        return nger;
+        return ngel;
     }
     public static void main(String[] args) {
-        int[] arr= {7,1,5,3,6,4};
+        int[] arr= {7,8,5,6,3,4,1,2};
         int[] num= NGEL(arr);
         for(int i:num){
             System.out.print(i+" ");

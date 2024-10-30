@@ -1,5 +1,5 @@
 package Assignment_01;
-
+import java.util.Scanner;
 public class Solutions {
 
     static void squarePattern(int n){
@@ -151,8 +151,8 @@ public class Solutions {
 
     }
     public static void main(String[] args) {
-        int n=5;
-
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
         
         
         patternNumbersAndStars2(n); //question-1

@@ -1,19 +1,20 @@
 package Assignment_00;
 import java.util.Scanner;
-public class ZeroToFive {
+public class Q12_ReplaceThemAll {
+   //Given a integer as a input and replace all the '0' with '5' in the integer
     static int replaceZerosWithOnes(int num) {
         if(num == 0) {
            return 5;
         }
-        int ans = 0, tmp = 1;
+        int ans = 0, temp = 1;
         while (num > 0) {
            int d = num % 10;
            if (d == 0) {
               d = 5;
            }
-           ans = d * tmp + ans;
+           ans = d * temp + ans;
            num = num / 10;
-           tmp = tmp * 10;
+           temp = temp * 10;
         }
         return ans;
      }

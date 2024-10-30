@@ -1,6 +1,6 @@
 package Assignment_00;
 import java.util.Scanner;
-public class LCM {
+public class Q5_LCM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
       int n1 = sc.nextInt();
@@ -16,3 +16,15 @@ public class LCM {
       System.out.println(lcm);
   }
 }
+/* 
+public static int lcm(int n1, int n2){
+  int largest = Math.max(n1, n2);
+  int smallest = Math.min(n1, n2);
+
+for(int i = largest; ;i += largest){
+
+    if(i % smallest == 0) return i;
+}
+}
+
+*/

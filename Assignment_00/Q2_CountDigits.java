@@ -5,7 +5,7 @@
 
 package Assignment_00;
 import java.util.Scanner;
-public class DigitCount {
+public class Q2_CountDigits {
     static void digCount( int n, int d){
         int count = 0;
     
