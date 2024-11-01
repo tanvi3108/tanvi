@@ -11,13 +11,13 @@ public class RotateArray2 {
         int[] temp=new int[arr.length];
         int n=arr.length;
         k=k%n;
-        for(int i=0;i<n-k;i++){
-            temp[i+k]=arr[i];
+        for(int i=0;i<n-k;i++){     //{1,2,3,1,2}
+            temp[i+k]=arr[i];       
         }
-        for(int i=0;i<k;i++){
+        for(int i=0;i<k;i++){      //{3,4,5,1,2}
             temp[i]=arr[n-k+i];
         }
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){      //{3,4,5,1,2}
             arr[i]=temp[i];
         }
 
