@@ -12,9 +12,9 @@ public class BinarySearch {
                 return true;
             }
             else if(arr[mid]<num){
-                low=mid+1;
+                low=mid+1;//discarding left half
             }
-            else{high=mid-1;
+            else{high=mid-1;//discarding right half
             }
         }
         return false;
