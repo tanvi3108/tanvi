@@ -2,7 +2,7 @@ package SampleCode;
 
 import java.util.Scanner;
 
-public class bleh {
+public class try2 {
       public static void main(String[] args) {
         
     Scanner sc = new Scanner(System.in);
@@ -16,10 +16,6 @@ public class bleh {
         }
         System.out.println();
     }
-
 }
 
 }
-
-    
-

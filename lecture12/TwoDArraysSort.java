@@ -1,18 +1,8 @@
-package SampleCode;
+package lecture12;
 import java.util.Arrays;
 import java.util.Scanner;
-public class Try {
-    
-    //Input
-    static void populate(int[][] nums){
-        int n=1;
-        for(int i=0;i<nums.length;i++){
-            for(int j=0;j<nums[0].length;j++){
-                nums[i][j]=n;
-                n++;
-            }
-        }
-    }
+
+public class TwoDArraysSort {
     //Display
     static void display(int[][] nums){
         for(int i=0;i<nums.length;i++){
@@ -23,7 +13,7 @@ public class Try {
         }
         System.out.println();
     }
-    //Sum
+
     //Sort 2D Array: By Rows, By Cols, Whole 2D Array
     //Rows
     static void sortByRows(int[][] nums){
@@ -86,32 +76,22 @@ public class Try {
             }
         }
     }
-    //Ques 74 & 240
     public static void main(String[] args) {
-        //initialise a 2D array
-        // int[][][][][] grid= new int[4][2][1][2][3];
-        int[][] nums= {
-            {1,4,3},
-            {8,6,7},
-            {2,5,9}
-        };
-        int[] arr= {1,2,3};
-        // populate(nums);
-        display(nums);
-        // transpose(nums);
-        sortComplete(nums);
-        display(nums);
-        // int[] indices= search(nums, 7);
-        // System.out.println("i: "+indices[0]+" & j: "+ indices[1]);
-        // int[][] nums= {
-        //     {1,2,3,4},
-        //     {5,6,7,8},
-        //     {9,10,11,12}
-        // };
-        // int[] arr= new int[5];
-        // System.out.println(grid);
-        // System.out.println(nums[1]);        
-        // System.out.println(nums[2]);
-    }
-}
+    int[][] nums = new int[2][3];
+    int[] arr = {5, 2, 6, 4, 1, 3};
+    display(nums);
+    fillArray(nums,arr);
+    display(nums);
+    flaten(nums);
+    display(nums);
+    sortByRows(nums);
+    display(nums);
+    sortByCols(nums);
+    display(nums);
+    sortComplete(nums);
+    display(nums);
+    transpose(nums);
+    display(nums);
 
+}
+}
