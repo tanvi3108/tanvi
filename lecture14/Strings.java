@@ -1,7 +1,12 @@
 package lecture14;
-
+import java.util.Scanner;
 public class Strings {
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String name=sc.next(); //taking string input only for a word
+        //String name=sc.nextLine(); //taking string as a whole line
+        System.out.println(name);
+
         String s1="chicken";
         String s2="chicken";
         String s3=new String("chicken"); //its not the same as s1
@@ -26,7 +31,7 @@ public class Strings {
         System.out.println(s3.charAt(4));
         String s7=s4+s5;//adding
         System.out.println(s7);
-        System.out.println(s4.concat(s5));//adding
+        System.out.println(s4.concat(s5));//adding //concatenation
         //diff bwn directly adding and concat function--> 
         String s8=10+12+20+s4+s5;
         String s9=s4+s5+10+12+20;

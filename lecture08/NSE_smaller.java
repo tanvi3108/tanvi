@@ -1,6 +1,7 @@
 package lecture08;
 
-public class NGER_greater {
+public class NSE_smaller {
     public class NextGreaterElementToLeft {
         
+}
 }
