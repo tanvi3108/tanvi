@@ -1,6 +1,6 @@
 package lecture08;
 
-public class NGEL {
+public class NextGreatest_Left {
     static int[] NGEL(int[] arr){
         int maxElement= 0;
         int[] ngel= new int[arr.length];

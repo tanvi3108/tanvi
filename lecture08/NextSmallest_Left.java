@@ -1,22 +1,22 @@
 package lecture08;
 
-public class NSER {
-    static int[] nser(int[] arr){
-        int[] NSER= new int[arr.length];
+public class NextSmallest_Left {
+    static int[] nsel(int[] arr){
+        int[] NSEL= new int[arr.length];
         int minEle= Integer.MAX_VALUE;
-        for(int i=arr.length-1;i>=0;i--){
+        for(int i=0;i<arr.length;i++){
             if(minEle==Integer.MAX_VALUE)
-                NSER[i]=0;
+                NSEL[i]=0;
             else
-            NSER[i]= minEle;
+            NSEL[i]= minEle;
             minEle= Math.min(minEle, arr[i]);
         }
-        return NSER;
+        return NSEL;
     }
     public static void main(String[] args) {
         int[] arr={7,8,5,6,3,4,1,2};
-        int[] NSER= nser(arr);
-        for(int i:NSER)
+        int[] NSEL= nsel(arr);
+        for(int i:NSEL)
             System.out.print(i+" ");
     }
 }

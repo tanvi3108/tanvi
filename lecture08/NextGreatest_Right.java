@@ -1,6 +1,6 @@
 package lecture08;
 
-public class NGER {
+public class NextGreatest_Right {
     static int[] NGER(int[] arr){
         int maxElement= 0;
         int[] nger= new int[arr.length];
