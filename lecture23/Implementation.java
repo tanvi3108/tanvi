@@ -1,5 +1,5 @@
-package lecture22; 
-import lecture22.LinkedList.Node;
+package lecture23; 
+import lecture23.LinkedList.Node;
 public class Implementation {
     public static void main(String[] args) {
         LinkedList ll= new LinkedList();

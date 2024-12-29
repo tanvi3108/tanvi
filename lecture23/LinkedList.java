@@ -1,4 +1,4 @@
-package lecture22;
+package lecture23;
 public class LinkedList {
     class Node{
         int val;
