@@ -6,4 +6,5 @@ public class Questions_ll {
     //141
     //206
     //160
+    //21
 }
