@@ -1,4 +1,4 @@
-package WrapperClass;
+package lecture15.WrapperClass;
 
 public class CS1 {
     //casestudy-1
