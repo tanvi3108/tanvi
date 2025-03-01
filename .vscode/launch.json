@@ -1,0 +1,882 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Q10_GCD",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q10_GCD",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q11_ChewbaccaAndNumber",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q11_ChewbaccaAndNumber",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q12_ReplaceThemAll",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q12_ReplaceThemAll",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q13_PrintSeries",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q13_PrintSeries",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q14_SimpleInput",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q14_SimpleInput",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q15_PrintArmStrongNumbers",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q15_PrintArmStrongNumbers",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q17_BostonNumbers",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q17_BostonNumbers",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q1_EvenOddSum",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q1_EvenOddSum",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q20_IsArmstrong",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q20_IsArmstrong",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q2_CountDigits",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q2_CountDigits",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q3_PrintReverse",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q3_PrintReverse",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q4_BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q4_BinaryToDecimal",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q5_LCM",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q5_LCM",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q6_NthFibonacci",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q6_NthFibonacci",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q7_ConversionFtoC",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q7_ConversionFtoC",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q8_InverseOfNumber",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q8_InverseOfNumber",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q9_CheckPrime",
+            "request": "launch",
+            "mainClass": "Assignment_00.Q9_CheckPrime",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Solutions",
+            "request": "launch",
+            "mainClass": "Assignment_01.Solutions",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Ques1",
+            "request": "launch",
+            "mainClass": "Assignment_02.Ques1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Ques2",
+            "request": "launch",
+            "mainClass": "Assignment_02.Ques2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Ques4",
+            "request": "launch",
+            "mainClass": "Assignment_02.Ques4",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PascalTriangle1",
+            "request": "launch",
+            "mainClass": "Assignment_03.PascalTriangle1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PascalTriangle2",
+            "request": "launch",
+            "mainClass": "Assignment_03.PascalTriangle2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PascalTriangle3",
+            "request": "launch",
+            "mainClass": "Assignment_03.PascalTriangle3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "OOPS.Client",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Client2",
+            "request": "launch",
+            "mainClass": "OOPS.Client2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "OOPS.Student",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Student2",
+            "request": "launch",
+            "mainClass": "OOPS.Student2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CS1",
+            "request": "launch",
+            "mainClass": "OOPs2.CS1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Client3",
+            "request": "launch",
+            "mainClass": "OOPs2.Client3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Modifiers",
+            "request": "launch",
+            "mainClass": "OOPs2.Modifiers",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "AllSubSeqOfArr",
+            "request": "launch",
+            "mainClass": "SampleCode.AllSubSeqOfArr",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Try",
+            "request": "launch",
+            "mainClass": "SampleCode.Try",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyOfCh",
+            "request": "launch",
+            "mainClass": "Strings.FrequencyOfCh",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PalindromePossibleOrNot",
+            "request": "launch",
+            "mainClass": "Strings.PalindromePossibleOrNot",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Strings.Q1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q242",
+            "request": "launch",
+            "mainClass": "Strings.Q242",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SortString",
+            "request": "launch",
+            "mainClass": "Strings.SortString",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo",
+            "request": "launch",
+            "mainClass": "Strings.StringDemo",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "ToggleCase",
+            "request": "launch",
+            "mainClass": "Strings.ToggleCase",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "demo1",
+            "request": "launch",
+            "mainClass": "Variables.demo1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "demo2",
+            "request": "launch",
+            "mainClass": "Variables.demo2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Helloworld",
+            "request": "launch",
+            "mainClass": "lecture00.Helloworld",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Datatypes",
+            "request": "launch",
+            "mainClass": "lecture01.Datatypes",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "lecture02.Operators",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Forloop",
+            "request": "launch",
+            "mainClass": "lecture03.Forloop",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "lecture03.Loops",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Problems",
+            "request": "launch",
+            "mainClass": "lecture03.Problems",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PatternPrintingQues",
+            "request": "launch",
+            "mainClass": "lecture04.PatternPrintingQues",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Patternprinting",
+            "request": "launch",
+            "mainClass": "lecture04.Patternprinting",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "lecture05.Arrays",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "lecture05.LinearSearch",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Traversing",
+            "request": "launch",
+            "mainClass": "lecture05.Traversing",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "AsciiValues",
+            "request": "launch",
+            "mainClass": "lecture06.AsciiValues",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "lecture06.BubbleSort",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "DisplayArray",
+            "request": "launch",
+            "mainClass": "lecture06.DisplayArray",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "lecture06.InsertionSort",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "RevValues",
+            "request": "launch",
+            "mainClass": "lecture06.RevValues",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "lecture06.ReverseArray",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "lecture06.SelectionSort",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SwapElements",
+            "request": "launch",
+            "mainClass": "lecture06.SwapElements",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "KadaneAlgo",
+            "request": "launch",
+            "mainClass": "lecture07.KadaneAlgo",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "lecture07.RotateArray",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray2",
+            "request": "launch",
+            "mainClass": "lecture07.RotateArray2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray3",
+            "request": "launch",
+            "mainClass": "lecture07.RotateArray3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "lecture08.LargestRectangleInHistogram",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "NextGreatest_Left",
+            "request": "launch",
+            "mainClass": "lecture08.NextGreatest_Left",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "NextGreatest_Right",
+            "request": "launch",
+            "mainClass": "lecture08.NextGreatest_Right",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "NextSmallest_Left",
+            "request": "launch",
+            "mainClass": "lecture08.NextSmallest_Left",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "NextSmallest_Right",
+            "request": "launch",
+            "mainClass": "lecture08.NextSmallest_Right",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Next_Smaller_Left",
+            "request": "launch",
+            "mainClass": "lecture08.Next_Smaller_Left",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Next_Smaller_Right",
+            "request": "launch",
+            "mainClass": "lecture08.Next_Smaller_Right",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "lecture08.TrappingRainWater",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "lecture09.BinarySearch",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CountOccurance",
+            "request": "launch",
+            "mainClass": "lecture09.CountOccurance",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "LowerBound",
+            "request": "launch",
+            "mainClass": "lecture09.LowerBound",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "UpperBound",
+            "request": "launch",
+            "mainClass": "lecture09.UpperBound",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "TimeComplexity",
+            "request": "launch",
+            "mainClass": "lecture10.TimeComplexity",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "BS_onSearchSpace",
+            "request": "launch",
+            "mainClass": "lecture11.BS_onSearchSpace",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "MagneticBalls",
+            "request": "launch",
+            "mainClass": "lecture11.MagneticBalls",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "RepairingCars",
+            "request": "launch",
+            "mainClass": "lecture11.RepairingCars",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Populate",
+            "request": "launch",
+            "mainClass": "lecture12.Populate",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArrays",
+            "request": "launch",
+            "mainClass": "lecture12.TwoDArrays",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "TwoDArraysSort",
+            "request": "launch",
+            "mainClass": "lecture12.TwoDArraysSort",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "lecture14.ReverseString",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindow",
+            "request": "launch",
+            "mainClass": "lecture14.SlidingWindow",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "lecture14.Strings",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Array_lists",
+            "request": "launch",
+            "mainClass": "lecture15.Array_lists",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "lecture15.Palindrome",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Regex",
+            "request": "launch",
+            "mainClass": "lecture15.Regex",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Reversestring",
+            "request": "launch",
+            "mainClass": "lecture15.Reversestring",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Stringbuilder",
+            "request": "launch",
+            "mainClass": "lecture15.Stringbuilder",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CS1(1)",
+            "request": "launch",
+            "mainClass": "lecture15.WrapperClass.CS1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CS2",
+            "request": "launch",
+            "mainClass": "lecture15.WrapperClass.CS2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CS3",
+            "request": "launch",
+            "mainClass": "lecture15.WrapperClass.CS3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "lecture15.WrapperClass.Demo1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example1",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example10",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example10",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example11",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example11",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example12",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example12",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example13",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example13",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example14",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example14",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example2",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example3",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example4",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example4",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example5",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example5",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example6",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example6",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example7",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example7",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example8",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example8",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example9",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion.Example9",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_basic",
+            "request": "launch",
+            "mainClass": "lecture16.Recursion_basic",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "lecture16.RecursiveSortAlgos.MergeSort",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "lecture16.RecursiveSortAlgos.MergeTwoSortedArrays",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PartitionAlgos",
+            "request": "launch",
+            "mainClass": "lecture16.RecursiveSortAlgos.PartitionAlgos",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "PartitionInArr",
+            "request": "launch",
+            "mainClass": "lecture16.RecursiveSortAlgos.PartitionInArr",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "lecture16.RecursiveSortAlgos.QuickSort",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString(1)",
+            "request": "launch",
+            "mainClass": "lecture16.ReverseString",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q22",
+            "request": "launch",
+            "mainClass": "lecture17.Q22",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SubSequences",
+            "request": "launch",
+            "mainClass": "lecture17.SubSequences",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "RatInMaze",
+            "request": "launch",
+            "mainClass": "lecture18.RatInMaze",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SudokuSolver",
+            "request": "launch",
+            "mainClass": "lecture19.SudokuSolver",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "OOPs",
+            "request": "launch",
+            "mainClass": "lecture20.OOPs",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Implementation",
+            "request": "launch",
+            "mainClass": "lecture23.Implementation",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Implementation(1)",
+            "request": "launch",
+            "mainClass": "lecture25.Implementation",
+            "projectName": "tanvi_58704c45"
+        }
+    ]
+}

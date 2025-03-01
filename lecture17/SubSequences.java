@@ -1,6 +1,7 @@
 package lecture17;
 
 public class SubSequences {
+    //subsequences->should be a part of the string, needn't be continuous
     public static void printPermutations(String ques,String ans){
         if(ques.length()==0){
             System.out.println(ans);

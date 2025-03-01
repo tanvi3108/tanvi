@@ -26,7 +26,9 @@ public class Strings {
         System.out.println(s3==s1); 
         System.out.println(s1.compareTo(s3));
         System.out.println(s4.compareTo(s5));
+        System.out.println(s3.substring(2));
         System.out.println(s3.substring(2,5));
+
         System.out.println(s3.length());
         System.out.println(s3.charAt(4));
         String s7=s4+s5;//adding
