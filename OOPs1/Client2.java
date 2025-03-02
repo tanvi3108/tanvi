@@ -1,4 +1,4 @@
-package OOPS;
+package OOPs1;
 
 class A{
     public int a=10;

@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "STACKS.StackDemo",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "OOPs4.Polymorphism",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "OOPs3.Inheritance",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulation",
+            "request": "launch",
+            "mainClass": "OOPs3.Encapsulation",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CS1",
+            "request": "launch",
+            "mainClass": "OOPs3.CS1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "client3",
+            "request": "launch",
+            "mainClass": "OOPs3.client3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "client2",
+            "request": "launch",
+            "mainClass": "OOPs3.client2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "client",
+            "request": "launch",
+            "mainClass": "OOPs3.client",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

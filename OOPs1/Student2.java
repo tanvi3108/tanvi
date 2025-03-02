@@ -1,4 +1,4 @@
-package OOPS;
+package OOPs1;
 
 class C{
     //state
