@@ -1,4 +1,4 @@
-package OOPs4;
+package OOPs4.Polymorphism;
 //compile time polymorphism=> METHOD OVER-LOADING or EARLY BINDING
 class A{
     int a=1;

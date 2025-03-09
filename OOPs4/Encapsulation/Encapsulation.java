@@ -1,4 +1,4 @@
-package OOPs3;
+package OOPs4.Encapsulation;
 
 class Account{
     private int balance=100;

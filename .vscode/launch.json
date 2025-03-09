@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "OOPs4.Inheritance.Example",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "SingleLevel",
+            "request": "launch",
+            "mainClass": "OOPs4.Inheritance.SingleLevel",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CompileTimePoly",
+            "request": "launch",
+            "mainClass": "OOPs4.CompileTimePoly",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "CS2",
+            "request": "launch",
+            "mainClass": "OOPs3.CS2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Ques2",
+            "request": "launch",
+            "mainClass": "STACKS.Questions.Ques2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Questions",
+            "request": "launch",
+            "mainClass": "STACKS.Questions",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "STACKS.ExceptionHandling",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
             "name": "StackDemo",
             "request": "launch",
             "mainClass": "STACKS.StackDemo",

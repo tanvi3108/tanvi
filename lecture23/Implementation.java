@@ -13,6 +13,6 @@ public class Implementation {
         ll.addLast(4);
         ll.display();
         System.out.println(ll.removeFirst());
-        System.out.println(ll.addFirst());
+        System.out.println(ll.addFirst(0));
     }
 }
