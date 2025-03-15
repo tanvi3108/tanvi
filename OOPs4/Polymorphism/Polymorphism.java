@@ -36,8 +36,8 @@ public class Polymorphism {
         // obj.fun(3,4);
         
         //B obj=new B();
-        A obj=new B();
-        System.out.println(((B)obj).a);//tycasting 
+        A obj=new B();//upcasting
+        System.out.println(((B)obj).a);//tycasting , A ki jgh B class ke variable ko access krri h
         obj.fun("abc",2,3);//over riding
     } 
 }

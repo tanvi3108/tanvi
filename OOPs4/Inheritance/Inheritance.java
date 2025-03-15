@@ -21,6 +21,6 @@ public class Inheritance {
         System.out.println(obj5.a);
         System.out.println(obj5.b);// parent class ka object child class ke function ko call nhi kar sakta
 
-        B obj4=new A();//upcasting and downcasting
+        B obj4=new A();//upcasting 
     }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Array_lists {
     public static void main(String[] args) {
-        ArrayList<Integer> arr=new ArrayList();  //capacity=10 , size=0
+        ArrayList<Integer> arr=new ArrayList<>();  //capacity=10 , size=0
         //crud operations
         //CREATE
         arr.add(12); //size=1

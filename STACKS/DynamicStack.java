@@ -4,8 +4,8 @@ public class DynamicStack extends myStack {
     DynamicStack(int size){
         super(size);
     }
-    //overriding
-    public void push(int val)throws Exception{
+    @Override
+    public void push(int val){
         if(isFull()){
             int[]oldarr=arr;
             arr=new int[oldarr.length*2];

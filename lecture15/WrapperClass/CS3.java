@@ -5,8 +5,8 @@ public class CS3 {
         Integer a=new Integer(12);
         Integer b=new Integer(12);   // sabke address alag create honge, so none would be equal
 
-        Integer c=500;
-        Integer d=500;
+        Integer c=100;
+        Integer d=100;
 
         if(a==b){
             System.out.println("same");

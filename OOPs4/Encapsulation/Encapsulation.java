@@ -1,7 +1,7 @@
 package OOPs4.Encapsulation;
 
 class Account{
-    private int balance=100;
+    /*private*/ int balance=100;
     String password="123";
 
     //getter

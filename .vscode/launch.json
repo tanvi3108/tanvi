@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyLinkedList",
+            "request": "launch",
+            "mainClass": "LINKED_LISTS.MyLinkedList",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "QueueUsingArrayList",
+            "request": "launch",
+            "mainClass": "QUEUES.QueueUsingArrayList",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "NSER",
+            "request": "launch",
+            "mainClass": "STACKS.Questions.NSER",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "NGER",
+            "request": "launch",
+            "mainClass": "STACKS.Questions.NGER",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Ques3",
+            "request": "launch",
+            "mainClass": "STACKS.Questions.Ques3",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "OOPs4.Polymorphism.Polymorphism",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulation",
+            "request": "launch",
+            "mainClass": "OOPs4.Encapsulation.Encapsulation",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "OOPs4.Encapsulation.Example",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
             "name": "Example",
             "request": "launch",
             "mainClass": "OOPs4.Inheritance.Example",

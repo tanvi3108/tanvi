@@ -27,7 +27,7 @@ public class Ques3 {
         st.push(2);
         st.push(3);
         st.push(4);
+        reverse(st);
         System.out.println(st);
-        reverse(s);
     }
 }
