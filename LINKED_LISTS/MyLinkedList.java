@@ -15,24 +15,53 @@ class MyLL {
             temp=temp.next;
         }
     }
-    public void insertAtEnd(int val){
-
+    public void insertAtEnd(int val){ 
+        if(head==null){
+           insertAtBegin(val);
+           return; 
+        }  
+        node newNode=new node(val);
+        node i=head;
+        while(i.next!=null){
+            i=i.next;
+        }
+        i.next=newNode;
     }
-    public void deleteAtBegin(){
-
+    public void deleteAtBegin() throws Exception{
+        if(head==null){
+            new Exception("List is empty");
+        }
+        node temp=head.next;
+        head.next=null;
+        head=temp;
     }
     public void deleteAtEnd(){
-
+        if(head==null){
+            return;
+        }
+        else if(head.next==null){
+            head=null;
+            return;
+        }
+        node temp=head;
+        while(temp.next.next!=null){
+            temp=temp.next;
+        }
+        temp.next=null;
     }
 }
 
 public class MyLinkedList{
     public static void main(String[] args) {
         MyLL list=new MyLL();
-        list.insertAtBegin(10);
         list.insertAtBegin(20);
         list.insertAtBegin(30);
         list.insertAtBegin(40);
+        list.insertAtBegin(50);
+        //list.display();
+        //list.insertAtEnd(10);
+        //list.deleteAtBegin();
+        list.deleteAtEnd();
         list.display();
     }
 }

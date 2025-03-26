@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ques2",
+            "request": "launch",
+            "mainClass": "HASHMAP.Ques2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Ques1",
+            "request": "launch",
+            "mainClass": "HASHMAP.Ques1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Demo2",
+            "request": "launch",
+            "mainClass": "HASHMAP.Demo2",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "HASHMAP.Demo",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Inbuilt",
+            "request": "launch",
+            "mainClass": "HASHMAP.Inbuilt",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "InbuiltList",
+            "request": "launch",
+            "mainClass": "LINKED_LISTS.InbuiltList",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
             "name": "MyLinkedList",
             "request": "launch",
             "mainClass": "LINKED_LISTS.MyLinkedList",
