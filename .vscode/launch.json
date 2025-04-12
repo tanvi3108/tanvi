@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyPQ",
+            "request": "launch",
+            "mainClass": "PQ.MyPQ",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "DemoinbuiltPQ",
+            "request": "launch",
+            "mainClass": "PQ.DemoinbuiltPQ",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.Q1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
             "name": "Ques2",
             "request": "launch",
             "mainClass": "HASHMAP.Ques2",

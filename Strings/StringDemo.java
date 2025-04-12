@@ -19,6 +19,7 @@ public class StringDemo {
         System.out.println(str1.substring(0,5));
         System.out.println(str1.substring(0,0));//pehla index include hota h, baad wala exclude
 
+
         //String str1=new String("hello").intern();
         //isse ye normal heap nhi, string pool mei store hoga
 
