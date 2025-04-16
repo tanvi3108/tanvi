@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "PQ.Q1",
+            "projectName": "tanvi_58704c45"
+        },
+        {
+            "type": "java",
             "name": "MyPQ",
             "request": "launch",
             "mainClass": "PQ.MyPQ",
